@@ -3,15 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@shopify/app-bridge-react": "^1.28.0",
+    "@shopify/app-bridge-utils": "^1.28.0",
+    "@shopify/koa-shopify-webhooks": "^2.5.2",
+    "@shopify/polaris": "^5.10.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "dotenv": "^8.2.0",
+    "flex-rest-client": "^1.0.5",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-shopify-jwt-auth": "^0.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "dev:server": "nodemon",
+    "start:server": "node server",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.6",
+    "nodemon": "^2.0.6"
   }
 }

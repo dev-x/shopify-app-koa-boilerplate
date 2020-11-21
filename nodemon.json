@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "watch": ["server", "./server.js"],
+  "ext": ".js",
+  "ignore": [],
+  "exec": "node ./server.js"
+}
